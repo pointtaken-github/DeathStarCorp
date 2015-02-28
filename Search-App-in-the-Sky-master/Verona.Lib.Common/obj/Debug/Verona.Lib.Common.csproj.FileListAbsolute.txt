@@ -1,0 +1,12 @@
+C:\Dev\Verona\Verona.Lib\Verona.Lib.Common\bin\Debug\Verona.Lib.Common.dll
+C:\Dev\Verona\Verona.Lib\Verona.Lib.Common\bin\Debug\Verona.Lib.Common.pdb
+C:\Dev\Verona\Verona.Lib\Verona.Lib.Common\bin\Debug\Microsoft.IdentityModel.dll
+C:\Dev\Verona\Verona.Lib\Verona.Lib.Common\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Dev\Verona\Verona.Lib\Verona.Lib.Common\bin\Debug\System.Web.dll
+C:\Dev\Verona\Verona.Lib\Verona.Lib.Common\obj\Debug\Verona.Lib.Common.dll
+C:\Dev\Verona\Verona.Lib\Verona.Lib.Common\obj\Debug\Verona.Lib.Common.pdb
+C:\Dev\Verona\Verona.Lib\Verona.Lib.Common\bin\Debug\Verona.Lib.Common.dll.config
+C:\Dev\Verona\Verona.Lib\Verona.Lib.Common\bin\Debug\HtmlAgilityPack.dll
+C:\Dev\Verona\Verona.Lib\Verona.Lib.Common\bin\Debug\HtmlAgilityPack.pdb
+C:\Dev\Verona\Verona.Lib\Verona.Lib.Common\bin\Debug\HtmlAgilityPack.xml
+C:\Dev\Verona\Verona.Lib\Verona.Lib.Common\obj\Debug\Verona.Lib.Common.csprojResolveAssemblyReference.cache

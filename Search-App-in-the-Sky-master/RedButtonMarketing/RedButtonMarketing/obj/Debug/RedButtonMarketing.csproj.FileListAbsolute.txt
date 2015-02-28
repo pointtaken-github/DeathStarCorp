@@ -1,0 +1,4 @@
+C:\Dev\ASPC2015\RedButtonMarketing\RedButtonMarketing\bin\Debug\RedButtonMarketing.pdb
+C:\Dev\ASPC2015\RedButtonMarketing\RedButtonMarketing\obj\Debug\RedButtonMarketing.dll
+C:\Dev\ASPC2015\RedButtonMarketing\RedButtonMarketing\obj\Debug\RedButtonMarketing.pdb
+C:\Dev\ASPC2015\RedButtonMarketing\RedButtonMarketing\bin\Debug\RedButtonMarketing.dll.config

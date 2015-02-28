@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedButtonMarketing", "RedButtonMarketing\RedButtonMarketing.csproj", "{A86293D7-1CFD-4653-88F5-9FA12BAE92AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedButtonMarketingWeb", "RedButtonMarketingWeb\RedButtonMarketingWeb.csproj", "{25980865-F882-4BC2-89D4-26F641593163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verona.Lib.o365.App", "..\..\Verona\Verona.Lib\Verona.Lib.o365.App\Verona.Lib.o365.App.csproj", "{FF56E585-B966-415D-AFAA-CB56774B4D21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verona.Lib.Common", "..\..\Verona\Verona.Lib\Verona.Lib.Common\Verona.Lib.Common.csproj", "{6106B064-FEA2-4B5C-96DE-22E5E4D21F8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6262CF97-45B0-4DCC-980C-4D2A772CC82C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://engelschion.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RedButtonMarketing\\RedButtonMarketing.csproj
+		SccProjectName1 = RedButtonMarketing
+		SccLocalPath1 = RedButtonMarketing
+		SccProjectUniqueName2 = RedButtonMarketingWeb\\RedButtonMarketingWeb.csproj
+		SccProjectName2 = RedButtonMarketingWeb
+		SccLocalPath2 = RedButtonMarketingWeb
+		SccProjectUniqueName3 = ..\\..\\Verona\\Verona.Lib\\Verona.Lib.o365.App\\Verona.Lib.o365.App.csproj
+		SccProjectName3 = ../../Verona/Verona.Lib/Verona.Lib.o365.App
+		SccLocalPath3 = ..\\..\\Verona\\Verona.Lib\\Verona.Lib.o365.App
+		SccProjectUniqueName4 = ..\\..\\Verona\\Verona.Lib\\Verona.Lib.Common\\Verona.Lib.Common.csproj
+		SccProjectName4 = ../../Verona/Verona.Lib/Verona.Lib.Common
+		SccLocalPath4 = ..\\..\\Verona\\Verona.Lib\\Verona.Lib.Common
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A86293D7-1CFD-4653-88F5-9FA12BAE92AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86293D7-1CFD-4653-88F5-9FA12BAE92AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86293D7-1CFD-4653-88F5-9FA12BAE92AC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A86293D7-1CFD-4653-88F5-9FA12BAE92AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86293D7-1CFD-4653-88F5-9FA12BAE92AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A86293D7-1CFD-4653-88F5-9FA12BAE92AC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{25980865-F882-4BC2-89D4-26F641593163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25980865-F882-4BC2-89D4-26F641593163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25980865-F882-4BC2-89D4-26F641593163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25980865-F882-4BC2-89D4-26F641593163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF56E585-B966-415D-AFAA-CB56774B4D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF56E585-B966-415D-AFAA-CB56774B4D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF56E585-B966-415D-AFAA-CB56774B4D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF56E585-B966-415D-AFAA-CB56774B4D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6106B064-FEA2-4B5C-96DE-22E5E4D21F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6106B064-FEA2-4B5C-96DE-22E5E4D21F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6106B064-FEA2-4B5C-96DE-22E5E4D21F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6106B064-FEA2-4B5C-96DE-22E5E4D21F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

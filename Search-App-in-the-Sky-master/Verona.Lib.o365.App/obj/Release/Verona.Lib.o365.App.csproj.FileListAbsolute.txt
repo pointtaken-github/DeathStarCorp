@@ -1,0 +1,17 @@
+C:\Dev\Verona\Verona.Lib\Verona.Lib.o365.App\bin\Release\Verona.Lib.o365.App.dll
+C:\Dev\Verona\Verona.Lib\Verona.Lib.o365.App\bin\Release\Verona.Lib.o365.App.pdb
+C:\Dev\Verona\Verona.Lib\Verona.Lib.o365.App\bin\Release\Microsoft.IdentityModel.dll
+C:\Dev\Verona\Verona.Lib\Verona.Lib.o365.App\bin\Release\Verona.Lib.Common.dll
+C:\Dev\Verona\Verona.Lib\Verona.Lib.o365.App\bin\Release\Verona.Lib.Common.pdb
+C:\Dev\Verona\Verona.Lib\Verona.Lib.o365.App\obj\Release\Verona.Lib.o365.App.csprojResolveAssemblyReference.cache
+C:\Dev\Verona\Verona.Lib\Verona.Lib.o365.App\obj\Release\Verona.Lib.o365.App.dll
+C:\Dev\Verona\Verona.Lib\Verona.Lib.o365.App\obj\Release\Verona.Lib.o365.App.pdb
+C:\Dev\Verona\Verona.Lib\Verona.Lib.o365.App\bin\Release\Microsoft.IdentityModel.Extensions.dll
+C:\Dev\Verona\Verona.Lib\Verona.Lib.o365.App\bin\Release\System.IdentityModel.dll
+C:\Dev\Verona\Verona.Lib\Verona.Lib.o365.App\bin\Release\System.IdentityModel.Selectors.dll
+C:\Dev\Verona\Verona.Lib\Verona.Lib.o365.App\bin\Release\System.ServiceModel.dll
+C:\Dev\Verona\Verona.Lib\Verona.Lib.o365.App\bin\Release\System.Web.Extensions.dll
+C:\Dev\Verona\Verona.Lib\Verona.Lib.o365.App\bin\Release\Verona.Lib.o365.App.dll.config
+C:\Dev\Verona\Verona.Lib\Verona.Lib.o365.App\bin\Release\HtmlAgilityPack.dll
+C:\Dev\Verona\Verona.Lib\Verona.Lib.o365.App\bin\Release\HtmlAgilityPack.pdb
+C:\Dev\Verona\Verona.Lib\Verona.Lib.o365.App\bin\Release\HtmlAgilityPack.xml

@@ -1,0 +1,10 @@
+C:\Dev\ASPC2015\RbmBergenServerSearch\RbmBergenServerSearch\bin\RbmBergenServerSearch.dll.config
+C:\Dev\ASPC2015\RbmBergenServerSearch\RbmBergenServerSearch\bin\RbmBergenServerSearch.dll
+C:\Dev\ASPC2015\RbmBergenServerSearch\RbmBergenServerSearch\bin\RbmBergenServerSearch.pdb
+C:\Dev\ASPC2015\RbmBergenServerSearch\RbmBergenServerSearch\bin\Newtonsoft.Json.dll
+C:\Dev\ASPC2015\RbmBergenServerSearch\RbmBergenServerSearch\bin\Newtonsoft.Json.xml
+C:\Dev\ASPC2015\RbmBergenServerSearch\RbmBergenServerSearch\obj\Debug\RbmBergenServerSearch.csprojResolveAssemblyReference.cache
+C:\Dev\ASPC2015\RbmBergenServerSearch\RbmBergenServerSearch\obj\Debug\RbmBergenServerSearch.dll
+C:\Dev\ASPC2015\RbmBergenServerSearch\RbmBergenServerSearch\obj\Debug\RbmBergenServerSearch.pdb
+C:\Dev\ASPC2015\RbmBergenServerSearch\RbmBergenServerSearch\bin\Verona.Lib.Common.dll
+C:\Dev\ASPC2015\RbmBergenServerSearch\RbmBergenServerSearch\bin\Verona.Lib.Common.pdb
