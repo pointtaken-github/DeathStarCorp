@@ -1,0 +1,21 @@
+<script src="../SiteAssets/js/libs/LS.Utils.js"></script>
+<script src="../SiteAssets/js/libs/LS.SP.REST.js"></script>
+<script src="../SiteAssets/js/libs/angular.min.js"></script>
+<script src="../SiteAssets/modules/publishPost/publishPost.js"></script>
+
+<div id="PublishPost" ng-controller="PublishPostController"  class="jumbotron">
+    <div ng-app="WPApp" ng-controller="WPController">
+       
+
+        <div ng-repeat="post in posts">
+            {{post.title}}
+        </div>
+        <input type="button" value="Post to WP" ng-click="postToWP()" />
+        {{test}}
+    </div>
+    
+</div>
+<script>
+   
+    angular.bootstrap(document.getElementById('PublishPost'), ['publishPost']);
+</script>

@@ -1,0 +1,21 @@
+﻿<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js.map"></script>
+<!--<script src="Scripts/app.js"></script>-->
+<script src="https://aspc1505.sharepoint.com/sites/rbm/SiteAssets/apps/buzzwordHunt/app.js~RF2236cda9.TMP"></script>
+<script src="https://aspc1505.sharepoint.com/sites/rbm/SiteAssets/js/libs/LS.Utils.js"></script>
+<script src="https://aspc1505.sharepoint.com/sites/rbm/SiteAssets/js/libs/LS.SP.REST.js"></script>
+<script src="//aspc1505.sharepoint.com///cdn.jsdelivr.net/sparkjs/0.2.6/spark.min.js"></script>
+
+
+
+<div class="jumbotron">
+    <div ng-app="BZApp" ng-controller="BZController">
+        <div ng-repeat="buzzword in buzzwords">
+            {{buzzword.title}}
+        </div>
+        <input type="button" value="Post to WP" ng-click="getBuzzwords()" />
+      
+    </div>
+
+</div>

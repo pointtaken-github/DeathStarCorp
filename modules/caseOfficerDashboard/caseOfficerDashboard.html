@@ -1,0 +1,137 @@
+
+
+<script src="../../SiteAssets/js/libs/LS.Utils.js"></script>
+<script src="../../SiteAssets/js/libs/LS.SP.REST.js"></script>
+<script src="../../SiteAssets/js/libs/angular.min.js"></script>
+<script src="../../SiteAssets/modules/caseOfficerDashboard/caseOfficerDashboard-objects.js"></script>
+<script src="../../SiteAssets/modules/caseOfficerDashboard/caseOfficerDashboard-functions.js"></script>
+<script src="../../SiteAssets/modules/caseOfficerDashboard/caseOfficerDashboard-app.js"></script>
+<script src="../../SiteAssets/js/libs/jquery.canvasjs.min.js"></script>
+<script src="HTTPS://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/sparkjs/0.2.6/spark.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../../SiteAssets/modules/caseOfficerDashboard/caseOfficerDashboard-app.css">
+
+<br>
+
+<div id="EditorsDashboard" ng-controller="editorsDashboardController" ng-init="init()" class="well">
+<div class="row">
+<div class="col-lg-6 col-md-6"><h1 class="HEADLINE">Case Officer Dashboard</h1></div>
+<div class="col-lg-6 col-md-6"></div>
+    
+</div>
+<div class="row">
+    <div class="col-lg-6 col-md-6">
+        <div class="jumbotron">
+            <h2>Blogs in draft</h2>
+            <p>This is the 5 newest blogs being written. For full list visit <a href="https://aspc1505.sharepoint.com/sites/rbm/blog/default.aspx">the full list.</a><p>
+        </div>
+        <div class="clearfix"></div>
+        <table class="table table-striped table-condensed table-hover dash-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Status</th>
+                 
+                    <th>Last modified</th>
+
+                </tr>
+            </thead>
+
+            <tbody ng-repeat="result in writtenPosts| limitTo:-5 | filter:filters | orderBy:'Modified':true" class="row" ng-class-odd="'bg'" ng-class-even="'bg'">
+
+
+                <tr>
+                    <td><a href={{result.url}}>{{result.title}}</a></td>
+                    <td>{{result.suggestionStatus}}</td>
+                  
+                    <td>{{result.modified | date:'dd.MM.yy HH:mm'}}</td>
+
+                </tr>
+
+            </tbody>
+        </table>
+
+        <div class="jumbotron">
+            <h2>Blogs published</h2>
+            <p>This is the 5 newest blogs published. For full list visit <a href="https://aspc1505.sharepoint.com/sites/rbm/blog/default.aspx">the full list.</a><p>
+        </div>
+        <div class="clearfix"></div>
+        <table class="table table-striped table-condensed table-hover dash-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Status</th>
+                 
+                    <th>Last modified</th>
+
+                </tr>
+            </thead>
+
+            <tbody ng-repeat="result in bloggedPosts| limitTo:-5 | filter:filters | orderBy:'Modified':true" class="row" ng-class-odd="'bg'" ng-class-even="'bg'">
+
+
+                <tr>
+                    <td><a href={{result.url}}>{{result.title}}</a></td>
+                    <td>{{result.suggestionStatus}}</td>
+                  
+                    <td>{{result.modified | date:'dd.MM.yy HH:mm'}}</td>
+
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+    
+
+    <div class="col-lg-6 col-md-6">
+       
+            <div class="jumbotron">
+            <h2>KPIs</h2>
+            <p>Monitoring KPIs for the blogging tool. </p>
+   
+
+        <div class="clearfix"></div>
+
+        <div class="{{kpibloggedPosts()}}">
+            <div class="labelText">Blogged posts</div>
+            <div class="infoNumber">{{ bloggedPosts.length }}</div>
+        </div>
+        <div class="{{kpinewBlogs()}}">
+            <div class="labelText">New suggestions</div>
+            <div class="infoNumber">{{newSuggestions.length}}</div>
+        </div>
+        <div class="{{kpirelationNumberBlogs()}}">
+            <div class="labelText">Currently working on</div>
+            <div class="infoNumber">{{workingBlogs.length}}</div>
+        </div>
+  
+ <br>
+ <br>
+
+<div class="clearfix"></div><div>
+ <blockquote><h2>Most popular topics<h2></blockquote>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+<dic class="clearfix"></div>
+<div id="chartContainer2" style="height: 300px; width: 100%;"></div>
+
+
+</div>
+</div>
+    
+
+
+
+   
+
+</div>
+<button id="new-button">Opprett blogg</button>
+
+<script>
+  
+
+ setTimeout(function(){ angular.bootstrap(document.getElementById('EditorsDashboard'), ['editorsDashboard']); }, 1500);
+
+   
+</script>

@@ -1,0 +1,65 @@
+<script src="../SiteAssets/js/libs/LS.Utils.js"></script>
+<script src="../SiteAssets/js/libs/LS.SP.REST.js"></script>
+<script src="../SiteAssets/js/libs/jquery.canvasjs.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+	var aspcData = [];
+		var teamResults = LS.SP.REST.GetListItemsByFieldValue(_spPageContextInfo.webAbsoluteUrl + "/blog", "H2H", "Team", "PointTaken").then(function (items)
+		            {
+		            	 
+		               $.each(items,function(i){
+		                   aspcData.push({
+		                          label: items[i].Year,
+		                          y: parseInt(items[i].Points)
+		               }); 
+		              
+		            });
+		           });  
+
+	                
+	  var chart = new CanvasJS.Chart("chartContainer", {
+
+      theme: "theme2",
+            
+      title:{
+        text: "PointTaken in ASPC"              
+      },
+
+      data: [  //array of dataSeries     
+      { //dataSeries - first quarter
+ /*** Change type "column" to "bar", "area", "line" or "pie"***/        
+       type: "column",
+       name: "First Quarter",
+       showInLegend: true,
+       dataPoints: aspcData,
+
+     { //dataSeries - second quarter
+
+      type: "column",
+      name: "Second Quarter", 
+      showInLegend: true,               
+      dataPoints: [
+      { label: "banana", y: 23 },
+      { label: "orange", y: 33 },
+      { label: "apple", y: 48 },                                    
+      { label: "mango", y: 37 },
+      { label: "grape", y: 20 }
+      ]
+    }
+    ],
+ /** Set axisY properties here*/
+    axisY:{
+      prefix: "$",
+      suffix: "K"
+    }    
+  });
+
+chart.render();
+
+	});
+
+</script>
+
+
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>

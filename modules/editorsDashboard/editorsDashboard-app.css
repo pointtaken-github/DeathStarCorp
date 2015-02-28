@@ -1,0 +1,118 @@
+﻿info, .success, .warning, .error, .validation {
+border: 3px solid grey;
+margin: 10px 0px;
+padding:15px 10px 15px 50px;
+background-repeat: no-repeat;
+background-position: 10px center;
+}
+
+.box { border: 5px solid #ccc;
+          float: left; margin: 15px;
+          -webkit-transition: margin 0.5s ease-out;
+          -moz-transition: margin 0.5s ease-out; 
+          -o-transition: margin 0.5s ease-out; } 
+      .box:hover { margin-top: 2px; }
+
+
+.info {
+color: #00529B;
+background-color: #BDE5F8;
+
+}
+.success {
+color: #4F8A10;
+background-color: #DFF2BF;
+
+}
+.warning {
+color: #9F6000;
+background-color: #FEEFB3;
+
+}
+.error {
+color: #D8000C;
+background-color: #FFBABA;
+
+}
+.box{
+    margin-left:20px;
+    float:left;
+    height: 200px;
+    width:200px;
+    padding:15px;
+}
+.labelText{
+
+    text-align:center;
+    font-size:26px;
+    
+}
+.infoNumber{
+    font-size:72px;
+    text-align:center;
+}
+
+.chart {
+    background: #eee;
+    padding: 3px;
+}
+
+.chart div {
+  width: 0;
+  transition: all 3s ease-out;
+  -moz-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out;
+}
+
+.chart div {
+  font: 16px sans-serif;
+  font-weight: bold;
+  background-color: red;
+  text-align: right;
+  padding: 20px;
+  margin: 5px;
+  color: white;
+  box-shadow: 2px 2px 2px #666;
+}
+
+.DATE{
+      font-size: 85%;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #bbb;
+      font-size: 10px;
+      font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+      font-weight: 100; 
+}
+.HEADLINE{
+        font: bold 34px "Century Schoolbook", Georgia, Times, serif;
+  color: #333;
+  line-height: 90%;
+  margin: .2em 0 .4em 0;
+  letter-spacing: -2px;
+}
+.TAG{
+        color: #76879b;
+        font-size: 10px;
+        margin: 5px;
+         font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+        font-size: 11px;
+ }
+
+ h1 { color: #ff4411; font-size: 48px; font-family: 'Signika', sans-serif; padding-bottom: 10px; }
+
+p { font-family: 'Inder', sans-serif; line-height: 28px; margin-bottom: 15px; color: #666; }
+
+a { color: #ff4411; transition: .5s; -moz-transition: .5s; -webkit-transition: .5s; -o-transition: .5s; }
+
+a:hover { color: #a03c21 }
+
+.date { float: left }
+
+.author { float: right }
+
+.entry-content { border-bottom: 3px solid #666; padding: 0 0 15px 0; margin-bottom: 8px; }
+
+.meta-info { padding: 5px; overflow: hidden; }
+
+.meta-info p { font-family: 'Fenix', serif; font-style: italic; color: #666; font-size: 16px; }
